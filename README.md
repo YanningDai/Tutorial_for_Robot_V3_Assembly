@@ -1,5 +1,3 @@
-# Robot V3 Assembly Guide
-
 ## Step 1 - Preparing the PCB
 
 1. Cut four wires on PCB's surface with a knife, like this: 
