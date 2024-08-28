@@ -145,15 +145,14 @@ For each robot arm:
 
 2. Attach the Beam to Power Module box:
 
-&emsp;&emsp;Melt and embed two threaded inserts into the beam (see Video 2).
+&emsp;&emsp;Embed two threaded inserts into the beam by melting the top of the beam (see Video 2).
    
 &emsp;&emsp;Use screws to secure the beam to the power module box in the position shown:
 
 &emsp;&emsp;<img src="https://github.com/user-attachments/assets/c46cbcc9-697a-4f33-8560-ff3afe52a364" width="600">
 
-&emsp;&emsp;Assemble the power board onto the beam with screws; placing the FPGA underneath it, between the bottom PCB and the power board.
+&emsp;&emsp;Assemble the limit switch board onto the beam with screws; placing the FPGA underneath it, between the bottom PCB and the limit switch board.
 
-&emsp;&emsp;(Temporary note: I'm not sure about the name of this board, and it’s currently referred to as the power board.)
 
 3. Solder 5V power wires:
 
@@ -169,7 +168,7 @@ For each robot arm:
 
 &emsp;&emsp;Then, connet the power wires to boards. Each wire have different connections at two ends:
 
-&emsp;&emsp;- The short wire (without flipping): connects its larger end to the PCB and the smaller end to the power board on the beam.
+&emsp;&emsp;- The short wire (without flipping): connects its larger end to the PCB and the smaller end to the limit switch board on the beam.
 
 &emsp;&emsp;- The long wire (flipped): connects its larger end to the PCB and the smaller end to the FPGA.
     
@@ -180,9 +179,9 @@ For each robot arm:
 
 &emsp;&emsp;<img src="https://github.com/user-attachments/assets/debffb37-44ad-4a1c-9072-65ebd33684ee" width="600">
 
-&emsp;&emsp;Connect a short wire from the FPGA to the power board on the beam.
+&emsp;&emsp;Connect a short wire from the FPGA to the limit switch board on the beam.
     
-&emsp;&emsp;The limit switch wires connect to the power board.
+&emsp;&emsp;The limit switch wire connects to limit switch board.
     
 &emsp;&emsp;Connect the FPGA to the Power Module box using an Ethernet cable.
 
