@@ -1,4 +1,4 @@
-# Baby Robot V3 Assembly Guide 
+# Baby Robot V4.1 Assembly Guide 
 
 
 ## Step 1 - Preparing the PCB
